@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"    >
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+
+        </LinearLayout>
+
+<RelativeLayout
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:gravity="center"
+    >
+
+        <ImageView
+            android:id="@+id/lottoNumber1"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/number11" />
+
+        <ImageView
+            android:id="@+id/lottoNumber2"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="65dp"
+            android:src="@drawable/number12" />
+
+        <ImageView
+            android:id="@+id/lottoNumber3"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="125dp"
+            android:src="@drawable/number13" />
+
+        <ImageView
+            android:id="@+id/lottoNumber4"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="185dp"
+            android:src="@drawable/number14" />
+
+        <ImageView
+            android:id="@+id/lottoNumber5"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="245dp"
+            android:src="@drawable/number15" />
+
+        <ImageView
+            android:id="@+id/lottoNumber6"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="305dp"
+            android:src="@drawable/number16" />
+
+</RelativeLayout>
+        <TextView
+            android:id="@+id/result1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="35dp"
+            android:text="1등 당첨 로딩중.."
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="35dp"
+            android:text="2등 당첨 로딩중.."
+            android:gravity="center"
+    />
+        <TextView
+            android:id="@+id/result3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="35dp"
+            android:text="3등 당첨 로딩중.."
+            android:gravity="center"
+    />
+        <TextView
+            android:id="@+id/result4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="35dp"
+            android:text="4등 당첨 로딩중.."
+            android:gravity="center"
+    />
+        <TextView
+            android:id="@+id/result5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="35dp"
+            android:text="5등 당첨 로딩중.."
+            android:gravity="center"
+            />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="10dp"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_id">
+        </com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>
+
+

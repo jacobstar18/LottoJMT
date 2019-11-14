@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!-- ca-app-pub-3940256099942544/6300978111   Banner TEST
+ca-app-pub-1420948259689687/2819403171    BAnner
+-->
+         <string name="banner_id">ca-app-pub-1420948259689687/2819403171</string>
+         <string name="interstitial_id">ca-app-pub-1420948259689687/4531620262</string>
+         <string name="application_id">ca-app-pub-1420948259689687~4707199912</string>
+
+ </resources>

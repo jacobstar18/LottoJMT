@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"    >
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+
+        </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+        <TextView
+            android:id="@+id/result5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:text="보너스 포함"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            />
+        <Switch
+            android:id="@+id/myswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:track="@drawable/switch_track_selector"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="2dp"
+            android:thumb="@drawable/switch_thumb"/>
+</RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+        <LinearLayout
+            android:id="@+id/ll"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.tistory.itpangpang.myapplication.MainActivity">
+        </LinearLayout>
+
+        </ScrollView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_id">
+        </com.google.android.gms.ads.AdView>
+</LinearLayout>
+
+

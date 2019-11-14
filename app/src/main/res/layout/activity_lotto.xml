@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:src="@drawable/matzip6" />
+                <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:gravity="center"
+            android:src="@drawable/matzip6" />
+
+        </LinearLayout>
+
+<RelativeLayout
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+
+        <ImageView
+            android:id="@+id/lottoNumber11"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:src="@drawable/number11" />
+        <ImageView
+            android:id="@+id/lottoNumber12"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/number12" />
+        <ImageView
+            android:id="@+id/lottoNumber13"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/number13" />
+        <ImageView
+            android:id="@+id/lottoNumber14"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/number14" />
+        <ImageView
+            android:id="@+id/lottoNumber15"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/number15" />
+        <ImageView
+            android:id="@+id/lottoNumber16"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="250dp"
+            android:src="@drawable/number16" />
+        <Button
+            android:id="@+id/past_list1"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="2dp"
+            android:text="당첨이력"
+            android:background="@drawable/btn_lightgreen"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+                <ImageView
+                    android:id="@+id/lottoNumber21"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/number21" />
+                <ImageView
+                    android:id="@+id/lottoNumber22"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/number22" />
+                <ImageView
+                    android:id="@+id/lottoNumber23"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:layout_marginLeft="100dp"
+                    android:src="@drawable/number23" />
+                <ImageView
+                    android:id="@+id/lottoNumber24"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:src="@drawable/number24" />
+                <ImageView
+                    android:id="@+id/lottoNumber25"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:src="@drawable/number25" />
+                <ImageView
+                    android:id="@+id/lottoNumber26"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="250dp"
+                    android:src="@drawable/number26" />
+                <Button
+                    android:id="@+id/past_list2"
+                    android:layout_width="130dp"
+                    android:layout_height="30dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="300dp"
+                    android:background="@drawable/btn_lightgreen"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="당첨이력"
+                    android:layout_marginTop="2dp"/>
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+                <ImageView
+                    android:id="@+id/lottoNumber31"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/number31" />
+                <ImageView
+                    android:id="@+id/lottoNumber32"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/number32" />
+                <ImageView
+                    android:id="@+id/lottoNumber33"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:layout_marginLeft="100dp"
+                    android:src="@drawable/number33" />
+                <ImageView
+                    android:id="@+id/lottoNumber34"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:src="@drawable/number34" />
+                <ImageView
+                    android:id="@+id/lottoNumber35"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:src="@drawable/number35" />
+                <ImageView
+                    android:id="@+id/lottoNumber36"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="250dp"
+                    android:src="@drawable/number36" />
+
+                <Button
+                    android:id="@+id/past_list3"
+                    android:layout_width="130dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/btn_lightgreen"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="당첨이력"
+                    android:textSize="15dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+                <ImageView
+                    android:id="@+id/lottoNumber41"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/number41" />
+                <ImageView
+                    android:id="@+id/lottoNumber42"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/number42" />
+                <ImageView
+                    android:id="@+id/lottoNumber43"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:layout_marginLeft="100dp"
+                    android:src="@drawable/number43" />
+                <ImageView
+                    android:id="@+id/lottoNumber44"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:src="@drawable/number44" />
+                <ImageView
+                    android:id="@+id/lottoNumber45"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:src="@drawable/number45" />
+                <ImageView
+                    android:id="@+id/lottoNumber46"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="250dp"
+                    android:src="@drawable/number45" />
+                <Button
+                    android:id="@+id/past_list4"
+                    android:layout_width="130dp"
+                    android:layout_height="30dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="300dp"
+                    android:background="@drawable/btn_lightgreen"
+                    android:textColor="@color/white"
+                    android:text="당첨이력"
+                    android:textStyle="bold"
+                    android:layout_marginTop="2dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+                <ImageView
+                    android:id="@+id/lottoNumber51"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/number11" />
+                <ImageView
+                    android:id="@+id/lottoNumber52"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:src="@drawable/number14" />
+                <ImageView
+                    android:id="@+id/lottoNumber53"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:background="@null"
+                    android:layout_marginLeft="100dp"
+                    android:src="@drawable/number13" />
+                <ImageView
+                    android:id="@+id/lottoNumber54"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:src="@drawable/number12" />
+                <ImageView
+                    android:id="@+id/lottoNumber55"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="200dp"
+                    android:src="@drawable/number11" />
+                <ImageView
+                    android:id="@+id/lottoNumber56"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="250dp"
+                    android:src="@drawable/number11" />
+                <Button
+                    android:id="@+id/past_list5"
+                    android:layout_width="130dp"
+                    android:layout_height="30dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="300dp"
+                    android:background="@drawable/btn_lightgreen"
+                    android:textColor="@color/white"
+                    android:text="당첨이력"
+                    android:textStyle="bold"
+                    android:layout_marginTop="2dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp" >
+                <Button
+                    android:id="@+id/button_again"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:textSize="30dp"
+                    android:background="@drawable/btn_blue"
+                    android:text="대박 번호 다시 생성"
+                    android:scaleType="centerInside"
+                    style="bold"
+                    android:layout_centerInParent="true"
+                    android:textColor="#ffffff"/>
+
+        </RelativeLayout>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="10dp"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_id">
+        </com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>
+
+

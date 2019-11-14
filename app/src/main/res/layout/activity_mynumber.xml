@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:background="@null"
+        android:gravity="center"
+        android:src="@drawable/lottomat" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        >
+    <Button
+        android:id="@+id/popbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_lightgreen"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="번호등록" />
+
+    <Button
+        android:id="@+id/delbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/btn_lightgreen"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="번호삭제" />
+    <Button
+        android:id="@+id/lastList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/btn_lightgreen"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="이력보기" />
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/btn_lightgreen"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="초기화" />
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <RadioGroup
+        android:id="@+id/RadioGroup01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        >
+
+    </RadioGroup>
+    </ScrollView>
+   <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+
+

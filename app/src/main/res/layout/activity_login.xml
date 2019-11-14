@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:background="@null"
+        android:gravity="center"
+        android:src="@drawable/lottomat" />
+
+    <ImageView
+        android:id="@+id/ballimg2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:src="@drawable/number7"
+        android:gravity="center"
+     />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        >
+    <TextView
+        android:id="@+id/hoicha"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@drawable/btn_grey"
+        android:textStyle="bold"
+        android:text="Now Loading "
+        />
+    <TextView
+        android:id="@+id/hoicha2"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="60dp"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/luckyNum1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/number7" />
+
+        <ImageView
+            android:id="@+id/luckyNum2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/number7" />
+
+        <ImageView
+            android:id="@+id/luckyNum3"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/number7" />
+
+        <ImageView
+            android:id="@+id/luckyNum4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/number7" />
+
+        <ImageView
+            android:id="@+id/luckyNum5"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/number7"/>
+
+        <ImageView
+            android:id="@+id/luckyNum6"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="250dp"
+            android:src="@drawable/number7"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="50dp"
+            android:layout_marginLeft="300dp"
+            android:text="+"
+            />
+        <ImageView
+            android:id="@+id/bnsNum"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="330dp"
+            android:src="@drawable/number7"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <Button
+            android:id="@+id/my_Number"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:textSize="40dp"
+            android:background="@drawable/btn_blue"
+            android:text="내번호등록/확인"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+
+    <Button
+        android:id="@+id/Button_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:background="@drawable/btn_blue"
+         android:text="대박 번호 생성"
+        android:textStyle="bold"
+        android:scaleType="centerInside"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <Button
+            android:id="@+id/num_history"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="40dp"
+            android:background="@drawable/btn_blue"
+            android:text="번호 출연 분석"
+            android:textStyle="bold"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"
+            />
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+
+

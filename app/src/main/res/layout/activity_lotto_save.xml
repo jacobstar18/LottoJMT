@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/saveView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="나의 번호를 선택해주세요."
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/lottoSave1"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/notselect1" />
+        <ImageView
+            android:id="@+id/lottoSave2"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/notselect2" />
+        <ImageView
+            android:id="@+id/lottoSave3"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/notselect3" />
+        <ImageView
+            android:id="@+id/lottoSave4"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/notselect4" />
+        <ImageView
+            android:id="@+id/lottoSave5"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/notselect5" />
+
+        <ImageView
+            android:id="@+id/lottoSave6"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/notselect6" />
+
+        <ImageView
+            android:id="@+id/lottoSave7"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/notselect7" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/lottoSave8"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/notselect8" />
+        <ImageView
+            android:id="@+id/lottoSave9"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/notselect9" />
+        <ImageView
+            android:id="@+id/lottoSave10"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/notselect10" />
+        <ImageView
+            android:id="@+id/lottoSave11"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/notselect11" />
+        <ImageView
+            android:id="@+id/lottoSave12"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/notselect12" />
+
+        <ImageView
+            android:id="@+id/lottoSave13"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/notselect13" />
+
+        <ImageView
+            android:id="@+id/lottoSave14"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/notselect14" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/lottoSave15"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/notselect15" />
+        <ImageView
+            android:id="@+id/lottoSave16"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/notselect16" />
+        <ImageView
+            android:id="@+id/lottoSave17"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/notselect17" />
+        <ImageView
+            android:id="@+id/lottoSave18"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/notselect18" />
+        <ImageView
+            android:id="@+id/lottoSave19"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/notselect19" />
+
+        <ImageView
+            android:id="@+id/lottoSave20"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/notselect20" />
+
+        <ImageView
+            android:id="@+id/lottoSave21"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/notselect21" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/lottoSave22"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/notselect22" />
+        <ImageView
+            android:id="@+id/lottoSave23"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/notselect23" />
+        <ImageView
+            android:id="@+id/lottoSave24"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/notselect24" />
+        <ImageView
+            android:id="@+id/lottoSave25"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/notselect25" />
+        <ImageView
+            android:id="@+id/lottoSave26"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/notselect26" />
+
+        <ImageView
+            android:id="@+id/lottoSave27"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/notselect27" />
+
+        <ImageView
+            android:id="@+id/lottoSave28"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/notselect28" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/lottoSave29"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/notselect29" />
+        <ImageView
+            android:id="@+id/lottoSave30"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/notselect30" />
+        <ImageView
+            android:id="@+id/lottoSave31"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/notselect31" />
+        <ImageView
+            android:id="@+id/lottoSave32"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/notselect32" />
+        <ImageView
+            android:id="@+id/lottoSave33"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/notselect33" />
+
+        <ImageView
+            android:id="@+id/lottoSave34"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/notselect34" />
+
+        <ImageView
+            android:id="@+id/lottoSave35"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/notselect35" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/lottoSave36"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/notselect36" />
+        <ImageView
+            android:id="@+id/lottoSave37"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/notselect37" />
+        <ImageView
+            android:id="@+id/lottoSave38"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/notselect38" />
+        <ImageView
+            android:id="@+id/lottoSave39"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/notselect39" />
+        <ImageView
+            android:id="@+id/lottoSave40"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/notselect40" />
+
+        <ImageView
+            android:id="@+id/lottoSave41"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/notselect41" />
+
+        <ImageView
+            android:id="@+id/lottoSave42"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/notselect42" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/lottoSave43"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:src="@drawable/notselect43" />
+        <ImageView
+            android:id="@+id/lottoSave44"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/notselect44" />
+        <ImageView
+            android:id="@+id/lottoSave45"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/notselect45" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/clearbutton"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:background="@drawable/btn_blue"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="초기화" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/btn_blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="저장" />
+
+    <Button
+        android:id="@+id/closebutton"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/btn_red"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="닫기" />
+
+
+</RelativeLayout>
+   <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+
+
